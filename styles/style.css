@@ -1,0 +1,25 @@
+/*posicion del texto sobre las imagenes del carrousel*/
+.carousel-caption {
+    right: 10%;
+    text-align: end;
+    transform: translateY(-100%);
+    width: 50%;
+}
+
+/*tamaño del logo del header*/
+.logo {
+    width: 150px;
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
+.textoSubrayado {
+    text-decoration: underline dotted;
+}
+
+.colorVerde {
+    background-color: rgb(114, 175, 22);
+    color: white;
+}
