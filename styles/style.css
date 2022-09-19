@@ -8,18 +8,17 @@
 
 /*tamaño del logo del header*/
 .logo {
-    width: 150px;
-}
-
-.nav-link {
-    font-weight: 400;
+    width: 175px;
 }
 
 .textoSubrayado {
     text-decoration: underline dotted;
 }
 
-.colorVerde {
-    background-color: rgb(114, 175, 22);
-    color: white;
+.botonEnviar {
+    background-color: #96C93E;
+}
+
+.fondoCyan {
+    background-color: #1D3E4F;
 }
