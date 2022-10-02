@@ -1,16 +1,27 @@
-/*posicion del texto sobre las imagenes del carrousel*/
-.carousel-caption {
-    right: 10%;
-    text-align: end;
-    transform: translateY(-100%);
-    width: 50%;
-}
-
 /*tamaño del logo del header*/
 .logo {
-    width: 175px;
+    width: 150px;
 }
 
+/*Seccion conferencia,
+filtro imagen, ubicacion y texto*/
+#imagenBsAs {
+    filter: brightness(45%);
+    height: auto;
+}
+
+#contConferencia {
+    position: relative;
+}
+
+#textoContConferencia {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+/*Seccion convierte
+texto, boton */
 .textoSubrayado {
     text-decoration: underline dotted;
 }
@@ -19,6 +30,24 @@
     background-color: #96C93E;
 }
 
+/*Footer, color*/
 .fondoCyan {
     background-color: #1D3E4F;
+}
+
+@media screen and (max-width: 992px) {
+    #contConferencia {
+        height: 45vh;
+    }
+
+    #imagenBsAs {
+        height: 100%;
+        width: 100%;
+    }
+
+    #textoContConferencia {
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
 }
