@@ -1,9 +1,10 @@
-/*tamaño del logo del header*/
+/*Header,
+tamaño del logo*/
 .logo {
     width: 150px;
 }
 
-/*Seccion conferencia,
+/*Seccion Conferencia,
 filtro imagen, ubicacion y texto*/
 #imagenBsAs {
     filter: brightness(45%);
@@ -20,7 +21,7 @@ filtro imagen, ubicacion y texto*/
     right: 10%;
 }
 
-/*Seccion convierte
+/*Seccion Convierte
 texto, boton */
 .textoSubrayado {
     text-decoration: underline dotted;
@@ -30,11 +31,13 @@ texto, boton */
     background-color: #96C93E;
 }
 
-/*Footer, color*/
+/*Footer, 
+color*/
 .fondoCyan {
     background-color: #1D3E4F;
 }
 
+/*Responsiveness de Conferencia*/
 @media screen and (max-width: 992px) {
     #contConferencia {
         height: 45vh;
