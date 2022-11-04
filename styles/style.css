@@ -27,7 +27,7 @@ texto, boton */
     text-decoration: underline dotted;
 }
 
-.botonEnviar {
+.botonVerde {
     background-color: #96C93E;
 }
 
@@ -53,4 +53,8 @@ color*/
         top: 10%;
         right: 2%;
     }
+}
+
+.fondoCeleste {
+    background-color: rgba(127, 255, 212, 0.5);
 }
